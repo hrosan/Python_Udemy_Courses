@@ -12,7 +12,7 @@ ou seja, o numero duplicado em si.
 import random, time
 
 # Generating a list of numbers
-list_of_numbers = [random.randint(1,15) for i in range(20)]
+list_of_numbers = [random.randint(0,9) for i in range(10)]
 print(list_of_numbers) # List of numbers generated
 
 # Turning the list into a set of numbers
