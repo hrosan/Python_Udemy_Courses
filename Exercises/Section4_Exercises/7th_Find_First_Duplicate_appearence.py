@@ -12,7 +12,7 @@ ou seja, o numero duplicado em si.
 import random, time
 
 # Generating a list of numbers
-list_of_numbers = [random.randint(0,9) for i in range(10)]
+list_of_numbers = [random.randint(0,9) for _ in range(10)]
 print(list_of_numbers) # List of numbers generated
 
 # Turning the list into a set of numbers
@@ -24,7 +24,7 @@ print(number_set)
 set_list = [[item,acc] for item in number_set]
 #print(set_list)
 flag = False
-# Iterating over the 
+# Iterating over the list to count total times numbers appear within the list
 for itens in list_of_numbers:
     for j in range(len(set_list)):
         if set_list[j][0] == itens: # Verifying if the number is equal from the current list's position
@@ -38,3 +38,4 @@ for itens in list_of_numbers:
         break
 
 # It can be done in another Way - Make it again
+
