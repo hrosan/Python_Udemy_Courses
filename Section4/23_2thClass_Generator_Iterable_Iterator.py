@@ -9,6 +9,9 @@ iterator-consuming methods.
     The main advantage of generators is their ability to produce values on-demand, which reduces memory consumption. 
 Instead of generating and storing all values upfront, they generate values one at a time as requested, making them suitable for working with 
 large or infinite sequences.
+
+    The yield from statement is a powerful feature in Python that simplifies the process of delegating value generation
+to other generators or iterables. It helps to avoid nested loops and improves code readability.
 """
 def even_numbers(n):
     for i in range(n):
