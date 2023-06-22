@@ -23,3 +23,9 @@ reusability, and maintainability.
     By following modularization principles, you can create well-structured, scalable, and maintainable codebases, 
 making your programs more robust and easier to work with.
 '''
+from teste_main import soma
+
+print("Este modulo se chama:", __name__)
+
+soma(5,7)
+
